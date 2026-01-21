@@ -46,7 +46,7 @@
 }
 
 body {
-    background-image: url('Map (6).png');
+    background-image: linear-gradient(rgba(16, 12, 31, 0.8), rgba(16, 12, 31, 0.8)),url('Map (6).png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1080,4 +1080,5 @@ body {
     }
 
 }
+
 
