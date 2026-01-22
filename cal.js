@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
             case 'events':
                 viewId = 'events-view';
                 break;
-            case 'map':
+            case 'more':
                 viewId = 'map-view';
                 break;
             default:
