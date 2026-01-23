@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 location: "SEECS,Islamabad",
                 description: "All Pak Olympiad by NUST"
             }
-        ]
+        ],
     };
     let currentEvent = null; // To store the event for the Add to Calendar modal
 
@@ -482,6 +482,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
