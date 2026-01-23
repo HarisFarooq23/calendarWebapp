@@ -34,6 +34,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: "GMS X Media Concert"
             }
         ],
+        "2026-01-27": [
+            {
+                id: "5",
+                name: "Gdgoc X VYRO",
+                date: "2026-01-27",
+                time: "16:00",
+                type: "Gdgoc",
+                location: "incubation centre",
+                description: "Gdgoc X VYRO session"
+            }
+        ],
         "2026-02-07": [
             {
                 id: "5",
@@ -482,6 +493,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
