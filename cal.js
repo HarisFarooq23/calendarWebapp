@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 location: "Faculty of Basic Sciences",
                 description: "All pakistan Math Olympiad"
             }
-        ]
+        ],
         "2026-01-24": [
             {
                 id: "5",
@@ -460,6 +460,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
