@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: "All pakistan Math Olympiad"
             }
         ]
-        "2026-01-23": [
+        "2026-01-24": [
             {
                 id: "5",
                 name: "Media Fest",
@@ -460,5 +460,6 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
