@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 name: "Jeem Se jaffar Concert",
                 date: "2026-01-25",
                 time: "16:00",
-                type: "Media","GMS"
+                type: "GMS",
                 location: "incubation centre",
                 description: "GMS X Media Concert"
             }
@@ -482,6 +482,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
