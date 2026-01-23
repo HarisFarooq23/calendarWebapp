@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 id: "5",
                 name: "APMO'26",
-                date: "2026-01-15",
+                date: "2026-01-23",
                 time: "16:00",
                 type: "GMS",
                 location: "Faculty of Basic Sciences",
@@ -16,13 +16,35 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 id: "5",
                 name: "Media Fest",
-                date: "2026-01-23",
+                date: "2026-01-24",
                 time: "16:00",
                 type: "Media",
                 location: "incubation centre",
                 description: "Media team all pak Film Fest"
             }
-        ]        
+        ],
+        "2026-01-25": [
+            {
+                id: "5",
+                name: "Jeem Se jaffar Concert",
+                date: "2026-01-25",
+                time: "16:00",
+                type: "Media","GMS"
+                location: "incubation centre",
+                description: "GMS X Media Concert"
+            }
+        ],
+        "2026-02-07": [
+            {
+                id: "5",
+                name: "Nust Olympiad",
+                date: "2026-02-07",
+                time: "16:00",
+                type: "Nust",
+                location: "SEECS,Islamabad",
+                description: "All Pak Olympiad by NUST"
+            }
+        ]
     };
     let currentEvent = null; // To store the event for the Add to Calendar modal
 
@@ -460,6 +482,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
