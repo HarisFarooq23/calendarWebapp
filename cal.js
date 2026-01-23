@@ -1,61 +1,28 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Static mock events data
     let events = {
-        "2026-01-25": [
-            {
-                id: "1",
-                name: "GDGOC Tech Conference 2026",
-                date: "2026-01-25",
-                time: "14:00",
-                type: "gdgoc",
-                location: "Auditorium A",
-                description: "Annual technology conference featuring cutting-edge innovations and industry leaders."
-            }
-        ],
-        "2026-01-28": [
-            {
-                id: "2",
-                name: "GMS Cultural Festival",
-                date: "2026-01-28",
-                time: "18:00",
-                type: "gms",
-                location: "Main Campus Ground",
-                description: "Celebrate diversity with traditional music, dance, and cultural performances."
-            }
-        ],
-        "2026-02-01": [
-            {
-                id: "3",
-                name: "Science Society Research Symposium",
-                date: "2026-02-01",
-                time: "10:00",
-                type: "science",
-                location: "Conference Hall",
-                description: "Showcase of groundbreaking research projects from various departments."
-            }
-        ],
-        "2026-02-05": [
-            {
-                id: "4",
-                name: "Sports Society Inter-University Meet",
-                date: "2026-02-05",
-                time: "09:00",
-                type: "sports",
-                location: "Sports Complex",
-                description: "Competitive sports tournament featuring multiple universities."
-            }
-        ],
-        "2026-01-15": [
+        "2026-01-23": [
             {
                 id: "5",
-                name: "MLSA AI Workshop",
+                name: "APMO'26",
                 date: "2026-01-15",
                 time: "16:00",
-                type: "mlsa",
-                location: "Lab 101",
-                description: "Hands-on workshop on modern AI and machine learning technologies."
+                type: "GMS",
+                location: "Faculty of Basic Sciences",
+                description: "All pakistan Math Olympiad"
             }
-        ]
+        ],
+        "2026-01-23": [
+            {
+                id: "5",
+                name: "Media Fest",
+                date: "2026-01-23",
+                time: "16:00",
+                type: "Media",
+                location: "incubation centre",
+                description: "Media team all pak Film Fest"
+            }
+        ]        
     };
     let currentEvent = null; // To store the event for the Add to Calendar modal
 
@@ -493,3 +460,4 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
