@@ -443,7 +443,18 @@ body {
     color: var(--tag-gms-color);
     border-color: var(--tag-gms-color);
 }
-
+.tag-LES {
+    color: var(--tag-LES-color);
+    border-color: var(--tag-LES-color);
+}
+.tag-CBS {
+    color: var(--tag-CBS-color);
+    border-color: var(--tag-CBS-color);
+}
+.tag-NUST {
+    color: var(--tag-NUST-color);
+    border-color: var(--tag-NUST-color);
+}
 .tag-aiaa {
     color: var(--tag-aiaa-color);
     border-color: var(--tag-aiaa-color);
@@ -1146,4 +1157,5 @@ body {
         margin-bottom: 0.875rem;
     }
 }
+
 
