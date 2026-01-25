@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 name: "Nust Olympiad",
                 date: "2026-02-07",
                 time: "16:00",
-                type: "Nust",
+                type: "NUST",
                 location: "SEECS,Islamabad",
                 description: "All Pak Olympiad by NUST"
             }
@@ -516,6 +516,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
