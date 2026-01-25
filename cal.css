@@ -14,7 +14,10 @@
 
     /* Society Tag Colors */
     --tag-gms-color: #BB5858;
+    --tag-CBS-color: #BB5858;
+    --tag-LES-color: #BB5858;
     --tag-aiaa-color: #587FBB;
+    --tag-NUST-color: #587FBB;
     --tag-giki-color: #9B5DE5;
     --tag-media-color: #58BB6F;
     --tag-lds-color: #BB8C58;
@@ -27,7 +30,10 @@
 
     /* Society letter card colors */
     --letter-gms-bg: #9E4040;
+    --letter-LES-bg: #9E4040;
+    --letter-CBS-bg: #9E4040;
     --letter-aiaa-bg: #40689E;
+    --letter-NUST-bg: #40689E;
     --letter-giki-bg: #7B2CBF;
     --letter-media-bg: #409E5A;
     --letter-lds-bg: #9E7440;
@@ -1140,3 +1146,4 @@ body {
         margin-bottom: 0.875rem;
     }
 }
+
