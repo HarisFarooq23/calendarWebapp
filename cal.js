@@ -1,33 +1,33 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Static mock events data
     let events = {
-        "2026-01-23": [
+        "2026-01-25": [
             {
                 id: "5",
                 name: "APMO'26",
-                date: "2026-01-23",
+                date: "2026-01-25",
                 time: "16:00",
                 type: "GMS",
                 location: "Faculty of Basic Sciences",
                 description: "All pakistan Math Olympiad"
             }
         ],
-        "2026-01-24": [
+        "2026-01-23": [
             {
                 id: "5",
                 name: "Media Fest",
-                date: "2026-01-24",
+                date: "2026-01-23",
                 time: "16:00",
                 type: "Media",
                 location: "incubation centre",
                 description: "Media team all pak Film Fest"
             }
         ],
-        "2026-01-25": [
+        "2026-01-24": [
             {
                 id: "5",
                 name: "Jeem Se jaffar Concert",
-                date: "2026-01-25",
+                date: "2026-01-24",
                 time: "16:00",
                 type: "GMS",
                 location: "incubation centre",
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 time: "16:00",
                 type: "Gdgoc",
                 location: "incubation centre",
-                description: "Gdgoc X VYRO session"
+                description: "Gdgoc X VYRO AI session"
             }
         ],
         "2026-02-07": [
@@ -54,6 +54,29 @@ document.addEventListener('DOMContentLoaded', () => {
                 type: "Nust",
                 location: "SEECS,Islamabad",
                 description: "All Pak Olympiad by NUST"
+            }
+        ],
+        
+        "2026-01-26": [
+            {
+                id: "5",
+                name: "CBS Spring Inductions",
+                date: "2026-01-26",
+                time: "17:00",
+                type: "CBS",
+                location: "ACB",
+                description: "CBS Spring Induction call"
+            }
+        ],
+        "2026-01-28": [
+            {
+                id: "5",
+                name: "LES inductions",
+                date: "2026-01-28",
+                time: "18:00",
+                type: "LES",
+                location: "Brabers Building",
+                description: " LES Spring Induction Call"
             }
         ],
     };
@@ -493,6 +516,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
