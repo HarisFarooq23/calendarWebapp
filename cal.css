@@ -748,6 +748,18 @@ body {
     background-color: var(--tag-gms-color);
     color: #fff;
 }
+.event-card-type.NUST {
+    background-color: var(--tag-NUST-color);
+    color: #fff;
+}
+.event-card-type.CBS {
+    background-color: var(--tag-CBS-color);
+    color: #fff;
+}
+.event-card-type.LES {
+    background-color: var(--tag-LES-color);
+    color: #fff;
+}
 
 .event-card-type.aiaa {
     background-color: var(--tag-aiaa-color);
@@ -1157,5 +1169,6 @@ body {
         margin-bottom: 0.875rem;
     }
 }
+
 
 
