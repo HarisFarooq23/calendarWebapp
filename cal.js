@@ -56,11 +56,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: "All Pak Olympiad by NUST"
             }
         ],
-        "2026-01-07": [
+        "2026-02-04": [
             {
                 id: "5",
                 name: "GIKI Career Fair",
-                date: "2026-01-07",
+                date: "2026-02-04",
                 time: "16:00",
                 type: "GIKI",
                 location: "Brabers Building",
@@ -515,6 +515,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
