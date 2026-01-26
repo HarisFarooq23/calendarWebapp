@@ -56,27 +56,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: "All Pak Olympiad by NUST"
             }
         ],
-        
-        "2026-01-26": [
+        "2026-01-07": [
             {
                 id: "5",
-                name: "CBS Spring Inductions",
-                date: "2026-01-26",
-                time: "17:00",
-                type: "CBS",
-                location: "ACB",
-                description: "CBS Spring Induction call"
+                name: "GIKI Career Fair",
+                date: "2026-01-07",
+                time: "16:00",
+                type: "GIKI",
+                location: "Brabers Building",
+                description: "Giki Annual Recruitment Drive X P@SHA"
             }
         ],
         "2026-01-28": [
             {
                 id: "5",
-                name: "LES inductions",
+                name: "SOP Guidance session",
                 date: "2026-01-28",
                 time: "18:00",
-                type: "LES",
-                location: "Brabers Building",
-                description: " LES Spring Induction Call"
+                type: "UROG",
+                location: "Incubation centre",
+                description: "Whether you’re applying for a research internship abroad or graduate school, your Statement of Purpose (SOP) is a critical part of your application. It can literally make or break your chances"
             }
         ],
     };
@@ -516,6 +515,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
