@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 name: "SOP Guidance session",
                 date: "2026-01-28",
                 time: "18:00",
-                type: "UROG",
+                type: "urog",
                 location: "Incubation centre",
                 description: "Whether you’re applying for a research internship abroad or graduate school, your Statement of Purpose (SOP) is a critical part of your application. It can literally make or break your chances"
             }
@@ -515,6 +515,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
