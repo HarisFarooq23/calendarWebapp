@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 name: "GIKI Career Fair",
                 date: "2026-02-04",
                 time: "16:00",
-                type: "GIKI",
+                type: "giki",
                 location: "Brabers Building",
                 description: "Giki Annual Recruitment Drive X P@SHA"
             }
@@ -515,6 +515,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
