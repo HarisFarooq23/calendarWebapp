@@ -78,6 +78,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: "Whether you’re applying for a research internship abroad or graduate school, your Statement of Purpose (SOP) is a critical part of your application. It can literally make or break your chances"
             }
         ],
+        "2026-01-29": [
+            {
+                "id": "6",
+                "name": "NeXus Web Exploitation Workshop",
+                "date": "2026-01-29",
+                "time": "19:00",
+                "type": "Workshop",
+                "location": "Cyber Lab",
+                "description": "High-impact hands-on web exploitation workshop for Batch 34 & 35, focused on real-world vulnerabilities, attacker methodologies, and offensive security mindset in a live red-team environment."
+            }
+        ]
+
     };
     let currentEvent = null; // To store the event for the Add to Calendar modal
 
@@ -515,6 +527,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
