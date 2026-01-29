@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "name": "Carbonteq Tech Talk",
                 "date": "2026-02-03",
                 "time": "17:20",
-                "type": "gdgoc",
+                "type": "Gdgoc",
                 "location": "MLH-2, ACB, GIKI",
                 "description": "Exclusive session with GDG GIKI and Carbonteq engineers on 'Tally — The Evaluation Stack for Reliable Agents'. Learn about AI agent workflows, meet the team, explore career opportunities, and grab free swags."
             }
@@ -539,6 +539,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
