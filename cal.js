@@ -88,7 +88,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 "location": "Cyber Lab",
                 "description": "High-impact hands-on web exploitation workshop for Batch 34 & 35, focused on real-world vulnerabilities, attacker methodologies, and offensive security mindset in a live red-team environment."
             }
+        ],
+        "2026-02-03": [
+            {
+                "id": "7",
+                "name": "Carbonteq Tech Talk",
+                "date": "2026-02-03",
+                "time": "17:20",
+                "type": "Tech Talk",
+                "location": "MLH-2, ACB, GIKI",
+                "description": "Exclusive session with GDG GIKI and Carbonteq engineers on 'Tally — The Evaluation Stack for Reliable Agents'. Learn about AI agent workflows, meet the team, explore career opportunities, and grab free swags."
+            }
         ]
+
 
     };
     let currentEvent = null; // To store the event for the Add to Calendar modal
@@ -527,6 +539,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('home');
     loadEventsAndRender();
 });
+
 
 
 
